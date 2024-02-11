@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+  margin-top: 20px;
 }
 
 .footer_logo{
@@ -36,10 +37,14 @@
 }
 
 .footer-icons-container{
-  padding: 10px;
-  padding-bottom: 6px;
+  /* padding: 10px; */
+  /* padding-bottom: 6px; */
+  padding-top: 5px;
   background: #fbfbfb;
   border: 1px solid #ebebeb;
+}
+.footer-icons-container img{
+  width: 40px;
 }
 
 .footer-copyright{
