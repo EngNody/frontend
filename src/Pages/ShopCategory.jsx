@@ -1,6 +1,7 @@
+
 import React, { useContext } from 'react';
 import './css/ShopCategory.css'
-import { ShopContext } from '../Context/shopContext';
+import { ShopContext } from '../Context/ShopContext';
 import dropdown_icon from '../Components/Assets/drop_down_icon-removebg-preview.png'
 import Item from '../Components/Item/Item'
 // import all_product from './../Components/Assets/all_product';

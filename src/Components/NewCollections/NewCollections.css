@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  height: 90vh;
+  /* height: 90vh; */
+  height: fit-content;
   margin-bottom: 200px;
 }
 
@@ -21,10 +22,13 @@
 }
 
 .collections{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 50px;
-  gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .collections img{
