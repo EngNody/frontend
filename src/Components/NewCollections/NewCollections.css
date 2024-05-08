@@ -37,8 +37,68 @@
 }
 
 
-
-
+@media screen and (max-width:900px){
+.new-collections hr{
+  height: 4px;
+}
+  .new-collections h1{
+    font-size: 44px;
+  }
+  .new-collections p{
+    font-size: 13px;
+  }
+  .new-collections button{
+    width: 140px;
+    font-size: 12px;
+  }
+  .new-collections img{
+    width: 180px;
+  }
+  }
+  @media screen and (max-width:700px){
+    .new-collections hr{
+      height: 3px;
+    }
+      .new-collections h1{
+        font-size: 34px;
+      }
+      .new-collections p{
+        font-size: 13px;
+      }
+      .new-collections button{
+        width: 140px;
+        font-size: 12px;
+      }
+      .new-collections img{
+        width: 180px;
+      }
+      }
+      @media screen and (max-width:684px){
+        .collections{
+          height: 90vh;
+          overflow-y: auto;
+        }
+        .new-collections hr{
+          height: 4px;
+        }
+          .new-collections h1{
+            font-size: 44px;
+          }
+          .new-collections p{
+            font-size: 13px;
+          }
+          .new-collections .collections .item{
+            text-align: center;
+            width: 250px;
+            /* font-size: 12px; */
+          }
+          .new-collections img{
+            width: 180px;
+          }
+          .new-collections .collections .item-prices{
+            justify-content: center;
+          }
+          }
 
 
 
