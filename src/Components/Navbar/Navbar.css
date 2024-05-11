@@ -175,6 +175,7 @@ transition: 0.5s;
   background-color: white;
   justify-content: center;
   top: 90px;
+  z-index: 100;
 }
 .nav-menu-visible{
   display: flex;
