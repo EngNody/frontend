@@ -19,12 +19,17 @@
   background: #252525;
 }
 
-.relatedproducts-item{
+.relatedproducts-item {
   margin-top: 50px;
   display: flex;
   /* flex-direction: column; */
   gap: 30px;
+  overflow-x: auto;
+  width: 90vw;
+  overflow-y: hidden;
 }
+
+
 
 .relatedproducts-item img{
   width: 250px;
