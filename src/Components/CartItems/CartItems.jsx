@@ -10,11 +10,11 @@ const CartItems = () => {
     <div className='cartitems'>
       <div className="CartItems-format-main">
         <p>Products</p>
-        <p>Title</p>
+        <p className='hugetitle'>Title</p>
         <p>Price</p>
         <p>Quantity</p>
-        <p>Total</p>
-        <p>Remove</p>
+        <p className='hugetotal'>Total</p>
+        <p className='hugeremove'>Remove</p>
       </div>
       <hr />
       {all_product.map((e) => {
